@@ -1,7 +1,6 @@
 {
   "name": "aqa-advanced.git",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -11,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.4.1"
-  }
+  },
+  "description": ""
 }
