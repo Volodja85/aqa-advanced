@@ -3,7 +3,6 @@ function recursiveNumber(num) {
     console.log(num);
     recursiveNumber(--num);
   }
-  return;
 }
 
 recursiveNumber(5);
