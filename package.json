@@ -1,25 +1,26 @@
 {
 	"name": "aqa-advanced.git",
 	"version": "1.0.0",
-	"type": "module",
+	"description": "",
 	"main": "index.js",
+	"devDependencies": {
+		"eslint": "^8.57.1",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.29.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^16.1.2",
+		"prettier": "^3.0.3"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint .",
-		"format": "prettier --write .",
 		"prepare": "husky install"
 	},
-	"devDependencies": {
-		"husky": "^9.0.0"
-	},
+	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
-		"chalk": "^5.4.1"
-	},
-	"description": "",
 	"lint-staged": {
-		"*.js": [
+		"**/*.js": [
 			"eslint --fix",
 			"prettier --write"
 		]
