@@ -5,5 +5,5 @@ const sortedArray = numbersArray.concat();
 
 sortedArray.sort((a, b) => a - b);
 
-console.log("Оригінальний масив:", numbersArray);
-console.log("Відсортований масив:", sortedArray);
+console.log('Оригінальний масив:', numbersArray);
+console.log('Відсортований масив:', sortedArray);
